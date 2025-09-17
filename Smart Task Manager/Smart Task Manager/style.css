@@ -1,0 +1,151 @@
+ body {
+      font-family: 'Segoe UI', sans-serif;
+      background: url('https://img.freepik.com/free-photo/alarm-clock-colorful-paper-reminders-blue-background-top-view_169016-35403.jpg?semt=ais_incoming&w=740&q=80') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 700px;
+      margin: 60px auto;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    h1 img {
+      height: 50px;
+      border-radius: 8px;
+    }
+
+    .input-section {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    input[type="text"] {
+      flex: 1;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+    }
+
+    button {
+      padding: 12px 16px;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    #addTaskBtn {
+      background-color: #00b894;
+      color: white;
+    }
+
+    #addTaskBtn:hover {
+      background-color: #019875;
+    }
+
+    #clearAllBtn {
+      background-color: #d63031;
+      color: white;
+    }
+
+    #clearAllBtn:hover {
+      background-color: #c0392b;
+    }
+
+    .stats {
+      margin-bottom: 15px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      font-size: 14px;
+      color: #ccc;
+      gap: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background: rgba(255, 255, 255, 0.9);
+      color: #333;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: 0.3s;
+      font-size: 16px;
+      position: relative;
+    }
+
+    li.completed {
+      text-decoration: line-through;
+      opacity: 0.6;
+      background: #dfe6e9;
+    }
+
+    .task-buttons {
+      display: flex;
+      gap: 8px;
+    }
+
+    button.completeBtn {
+      background-color: #0984e3;
+      color: white;
+    }
+
+    button.completeBtn:hover {
+      background-color: #74b9ff;
+    }
+
+    button.deleteBtn {
+      background-color: #e17055;
+      color: white;
+    }
+
+    button.deleteBtn:hover {
+      background-color: #d35400;
+    }
+
+    button.editBtn {
+      background-color: #fdcb6e;
+      color: #2d3436;
+    }
+
+    button.editBtn:hover {
+      background-color: #ffeaa7;
+    }
+
+    .index-number {
+      font-weight: bold;
+      color: #6c5ce7;
+      margin-right: 8px;
+    }
