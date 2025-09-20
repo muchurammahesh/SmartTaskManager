@@ -4,6 +4,8 @@ A simple and responsive **Task Management Web App** built with **JavaScript, CSS
 It helps users create, manage, and track their daily tasks in an intuitive interface.
 
 ---
+<img width="1900" height="903" alt="Screenshot 2025-09-17 134658" src="https://github.com/user-attachments/assets/16357825-c307-4c8c-a780-ba12e7b069ea" />
+
 🚀 Check out the deployed application here:  
 👉 [Live Demo]( https://smart-task-manager-mahi.netlify.app/ )
 ## 🚀 Features
